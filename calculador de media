@@ -1,0 +1,10 @@
+n1 = int(input("digite o primeiro numero: "))
+n2 = int(input("digite o segundo numero: "))
+n3 = int(input("digite o terceiro numero: "))
+n4 = int(input("digite o quarto numero: "))
+
+media_arit = (n1 + n2 + n3 + n4) /4
+media_geo = (n1 + n2 + n3 + n4) ** (1/4)
+media_harm = 4 / (1/n1 + 1/n2 + 1/n3 + 1/n4)
+
+print(f"A media aritmética é: {media_arit}.\n A media geometrica é: {media_geo}.\n A media hamônica é: {media_harm}.\n")
