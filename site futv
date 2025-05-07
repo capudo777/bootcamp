@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futevôlei - Marcação e Regras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Futevôlei</h1>
+      <p>Entenda as marcações e regras do esporte!</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#regras">Regras</a></li>
+        <li><a href="#marcacoes">Marcações</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="regras">
+      <h2>Regras do Futevôlei</h2>
+      <p>O futevôlei é jogado em duplas, onde os jogadores tentam passar a bola para o lado do adversário sem deixar ela cair no seu próprio lado do campo.</p>
+      <p>A quadra de futevôlei tem 18 metros de comprimento e 9 metros de largura, com uma rede dividindo os dois lados. A principal regra é que a bola não pode tocar o chão e cada time tem no máximo 3 toques para passar a bola para o outro lado.</p>
+    </section>
+
+    <section id="marcacoes">
+      <h2>Marcação de Pontos</h2>
+      <p>No futevôlei, a contagem de pontos segue o sistema do vôlei de praia, com o jogo sendo disputado até 21 pontos, com a necessidade de uma vantagem de pelo menos 2 pontos. Aqui estão as principais marcações:</p>
+      <ul>
+        <li><strong>Ponto:</strong> Quando o time adversário comete um erro ou a bola cai no seu campo.</li>
+        <li><strong>Erro:</strong> Erros incluem toques duplos, levantar a bola com as mãos (em vez de chutar ou tocar com qualquer outra parte do corpo), ou a bola cair fora da quadra.</li>
+        <li><strong>Falta:</strong> Faltas acontecem quando um jogador invade a área do adversário, ou quando há um toque irregular na bola.</li>
+      </ul>
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas para Jogar Futevôlei</h2>
+      <ul>
+        <li><strong>Posicionamento:</strong> Mantenha-se sempre em movimento e tente se posicionar de maneira que consiga cobrir a maior parte da quadra.</li>
+        <li><strong>Controle de bola:</strong> Treine a recepção e o controle da bola com os pés, coxas e cabeça para melhorar seu jogo.</li>
+        <li><strong>Comunicação:</strong> A comunicação com seu parceiro de jogo é essencial para uma boa movimentação e defesa.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Futevôlei - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header .logo h1 {
+    font-size: 2.5rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
